@@ -1,0 +1,6 @@
+apply plugin: 'kotlin-platform-jvm'
+
+dependencies {
+    implement project(':another-common')
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
